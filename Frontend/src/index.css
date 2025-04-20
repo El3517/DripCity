@@ -19,9 +19,20 @@ a.active hr{
   display: none;
 }
 
+.update-message{
+  background-color: gray;
+  color: white;
+  font-size: 15px;
+  width: 20vw;
+  padding: 20px 10px;
+}
+
 @media(max-width:640px){
   a.active{
     background-color: black;
     color: white;
+  }
+  .update-message{
+    width: 100vw;
   }
 }

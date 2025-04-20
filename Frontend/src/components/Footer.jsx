@@ -6,7 +6,6 @@ const Footer = () => {
     return (
         <div>
             <div className="flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm">
-
                 <div>
                     <img src={assets.logo} className='mb-3 w-24 rounded-full' alt="" />
                     <p className='w-full md:w-2/3 text-gray-600'>At DripCity, we believe style should be effortless, inclusive, and ever-evolving. From everyday essentials to standout pieces, we create fashion that fits your style and your vibe. Follow us for daily style inspo, behind-the-scenes, and first dibs on new arrivals @drip_city</p>
