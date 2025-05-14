@@ -12,6 +12,10 @@ import Login from './Pages/Login'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import SearchBar from './components/SearchBar'
+import PaymentSucess from './Pages/PaymentSucess'
+import PaymentFailed from './Pages/PaymentFailed'
+import PaymentCancelled from './Pages/PaymentCancelled'
+import PaymentVerification from './Pages/PaymentVerification'
 import { ToastContainer, toast } from 'react-toastify';
 
 const App = () => {
@@ -30,6 +34,10 @@ const App = () => {
         <Route path='/orders' element = {<Orders></Orders>}></Route>
         <Route path='/login' element = {<Login></Login>}></Route>
         <Route path='/product/:productId' element = {<Product></Product>}></Route>
+        <Route path='/payment-success' element= {<PaymentSucess></PaymentSucess>}></Route>
+        <Route path='/payment-failed' element= {<PaymentFailed></PaymentFailed>}></Route>
+        <Route path='/payment-cancelled' element= {<PaymentCancelled></PaymentCancelled>}></Route>
+        <Route path='/payment-redirect' element= {<PaymentVerification></PaymentVerification>}></Route>
       </Routes>
       <Footer></Footer>
     </div>

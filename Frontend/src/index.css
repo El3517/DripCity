@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
 @import "tailwindcss";
+@plugin 'tailwind-scrollbar';
 
 a.active hr{
   display: block;
@@ -15,16 +16,32 @@ a.active hr{
   font-style: normal;
 }
 
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
   display: none;
-}
+} */
 
 .update-message{
-  background-color: gray;
+  background-color: darkred;
   color: white;
   font-size: 15px;
-  width: 20vw;
-  padding: 20px 10px;
+  width: 30vw;
+  padding: 25px 20px;
+}
+.swiper-pagination-bullet{
+  background-color: ghostwhite !important;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: white !important;
+}
+.swiper-button-prev{
+  display: none !important;
+}
+.swiper-button-next{
+  display: none !important;
+}
+.sub{
+  font-style: italic !important;
 }
 
 @media(max-width:640px){

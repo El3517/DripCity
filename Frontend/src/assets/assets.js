@@ -53,6 +53,12 @@ import p_img49 from './p_img49.png'
 import p_img50 from './p_img50.png'
 import p_img51 from './p_img51.png'
 import p_img52 from './p_img52.png'
+import bg1 from './Bg-1.jpg'
+import bg3 from './bg-3.webp'
+import bg5 from './bg-5.webp'
+import bg6 from './carousel_image1.jpg'
+import bg7 from './carousel_image2.jpg'
+import bg8 from './carousel_image4.avif'
 
 
 import logo from './DripCityLogo.png'
@@ -77,6 +83,13 @@ import insta_icon from '../assets/IG.png'
 import facebook_icon from '../assets/Facebook.png'
 import tiktok_icon from '../assets/tiktok-icon.webp'
 import x_icon from '../assets/x(formerly twitter).avif'
+import hero_img2 from "../assets/HeroImg2.jpg"
+import hero_img3 from '../assets/HeroImg.jpg'
+import hero_img4 from '../assets/HeroImg4.jpg'
+import hero_img5 from '../assets/model.jpg'
+import paystack_logo from '../assets/Paystack_Logo.png'
+import flutterwave_logo from '../assets/Flutterwave_Logo.png'
+import paypal_logo from '../assets/PayPal.svg.png'
 
 export const assets = {
     logo,
@@ -100,7 +113,20 @@ export const assets = {
     insta_icon,
     facebook_icon,
     tiktok_icon,
-    x_icon
+    x_icon,
+    bg1,
+    bg3,
+    bg5,
+    bg6,
+    bg7,
+    bg8,
+    hero_img2,
+    hero_img3,
+    hero_img4,
+    hero_img5,
+    paystack_logo,
+    flutterwave_logo,
+    paypal_logo
 }
 
 export const products = [

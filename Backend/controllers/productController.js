@@ -84,5 +84,4 @@ const singleProduct = async(req, res) =>{
 
 
 
-
 export {addProduct, listProduct, deleteProduct, singleProduct} 

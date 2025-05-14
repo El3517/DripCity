@@ -66,7 +66,7 @@ const Add = ({token}) => {
   return (
    <>
    {loading && <Loader></Loader>}
-   <form onSubmit={handleSubmit} className='flex flex-col w-full items-start gap-3 ml-3'>
+   <form onSubmit={handleSubmit} className='flex flex-col w-full items-start gap-3 ml-5 sm:ml-10'>
         <div>
             <p className='mb-2'>Upload Image</p>
 
